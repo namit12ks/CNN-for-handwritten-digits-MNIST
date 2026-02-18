@@ -49,10 +49,8 @@ This evaluates the trained model and prints the final classification accuracy.
 
 ## Author
 
-Namit Sahu 
-230102059
-B.Tech – Electronics and Communication Engineering
-IIT Guwahati
-
-
+Namit Sahu  
+Roll No: 230102059  
+B.Tech – Electronics and Communication Engineering  
+Indian Institute of Technology Guwahati
 
