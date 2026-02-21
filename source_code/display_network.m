@@ -1,3 +1,12 @@
+
+
+
+
+
+
+
+
+
 function [h, array] = display_network(A, opt_normalize, opt_graycolor, cols, opt_colmajor)
 
 

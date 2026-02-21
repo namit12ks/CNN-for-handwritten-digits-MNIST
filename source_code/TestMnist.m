@@ -1,3 +1,7 @@
+
+
+
+
 %order{ loadimage, loadlabels, relu, softmax, Conv, pool, MnistConv, rng, TestMnist, display, plot }
 
 % Fina script = to be run

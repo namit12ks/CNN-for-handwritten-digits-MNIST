@@ -1,3 +1,9 @@
+
+
+
+
+
+
 function y = Pool(x)
 
 [ xrow, xcol, numFilters] = size (x);

@@ -1,17 +1,23 @@
+
+
+
+
+
+
 load ('MnistConv.mat')
 
-% Forward pass for one image
+% Forward pass for one image 
 
-    k = 11; % third image 
+    k = 11;           % which  image no
     x = X(:, :, k);
-    y1 = Conv(x, W1);           % convoution 20x20x20
-    y2 = ReLU(y1);              %
-    y3 = Pool(y2);              % pool 10x10x20
-    y4 = reshape(y3, [], 1);    %       2000
-    v5 = W5*y4;                 % relu   360
-    y5 = ReLU (v5);             %
-    v = Wo*y5;                  % softmax,    10
-    y = Softmax(v) ;            %
+    y1 = Conv(x, W1);      % convoution 
+    y2 = ReLU(y1);          % relu  
+    y3 = Pool(y2);         % pool 
+    y4 = reshape(y3, [], 1);          
+    v5 = W5*y4;                 
+    y5 = ReLU (v5);             
+    v = Wo*y5;                  
+    y = Softmax(v) ;            % softmax,    
 
 
 figure;

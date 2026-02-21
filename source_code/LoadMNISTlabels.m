@@ -1,3 +1,10 @@
+
+
+
+
+
+
+
 function labels = LoadMNISTlabels(filename)
 
 fp = fopen (filename, 'rb');

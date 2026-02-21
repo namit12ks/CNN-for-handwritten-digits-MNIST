@@ -1,7 +1,14 @@
+
+
+
+
+
+
+
 function y = Conv(x,w)
 
 
-[wrow, wcol, numFilters] = size (w) ; % kernel
+[wrow, wcol, numFilters] = size (w) ; % kernel/filters
 [xrow, xcol,  ~        ] = size (x) ; % input/image 
 
  

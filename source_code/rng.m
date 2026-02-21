@@ -1,3 +1,8 @@
+
+
+
+
+
 %after mnist conv - for testing CNN
 %random number generator
 

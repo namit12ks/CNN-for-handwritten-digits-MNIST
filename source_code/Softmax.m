@@ -1,3 +1,6 @@
+
+
+
 function  y = Softmax(x)
 
 ex = exp(x);

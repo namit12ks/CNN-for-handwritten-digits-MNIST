@@ -1,3 +1,9 @@
+
+
+
+
+
+
 function images = LoadMNISTimages(filename)
 
 fp = fopen(filename,'rb');

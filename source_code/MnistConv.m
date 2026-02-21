@@ -1,3 +1,8 @@
+
+
+
+
+
 %order{ loadimage, loadlabels, relu, softmax, Conv, pool, MnistConv, rng, TestMnist, display, plot }
 
 % function to IMPLEMENT and TRAIN CNN
